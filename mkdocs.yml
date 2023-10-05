@@ -1,11 +1,11 @@
-site_name: FOSS 23 Fall Git Hub page
-site_description: site for personal webpage
-site_author: Stephanie Mallahan, PhD candidate at University of Arizona
-site_url: The website URL https://smallahan.github.io/foss23-fall-gitpages
+site_name: FOSS 23 fall GitHub tutorial
+site_description: Site for tutorial for FOSS 23 attedees
+site_author: Stephanie Mallahan
+site_url: https://smallahan.github.io/foss23-fall-gitpages
 
 # Repository
 repo_name: foss23-fall-gitpages
-repo_url: https://github.com/smallahan/foss23-fall-gitpages/new/main
+repo_url: https://github.com/smallahan/foss23-fall-gitpages
 edit_uri: edit/main/docs/
 # Copyright
 copyright: 'Copyright &copy; 2023 - 2024'
@@ -51,7 +51,6 @@ icon:
 # Page tree
 nav:
 - Home: index.md
-- Code: code.md
 
 # Extra Plugins
 plugins:
@@ -93,11 +92,6 @@ markdown_extensions:
     repo: mkdocs-material
 - pymdownx.mark
 - pymdownx.smartsymbols
-- pymdownx.superfences:
-    custom_fences:
-        - name: mermaid
-        class: mermaid
-        format: !!python/name:pymdownx.superfences.fence_code_format
 - pymdownx.tabbed
 - pymdownx.tasklist:
     custom_checkbox: true
