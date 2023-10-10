@@ -2,4 +2,4 @@
 
 *About*
 
-This website is about... 
+Welcome to my website!
